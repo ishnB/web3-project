@@ -1,3 +1,3 @@
 ## Web3 Blockchain Application
 
-<img width="1431" alt="image" src="https://user-images.githubusercontent.com/68787237/184682365-49ad12ea-3eaa-49fe-9800-e2f7a4ccce79.png">
+<img width="1225" alt="image" src="https://user-images.githubusercontent.com/68787237/184683211-48c6c5b2-4054-4670-8308-8543a497a390.png">
