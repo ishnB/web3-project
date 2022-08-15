@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+    background: rgb(0, 1, 51);
+    background: linear-gradient(90deg, rgba(0, 1, 51, 1) 0%, rgba(21, 6, 47, 1) 47%, rgba(49, 18, 119, 1) 100%);
+}
+
+.gradient-bg-footer {
+    background: rgb(0, 1, 51);
+    background: linear-gradient(90deg, rgba(0, 1, 51, 1) 0%, rgba(21, 6, 47, 1) 47%, rgba(49, 18, 119, 1) 100%);
+    filter: brightness(75%);
+}
+
+.blue-glassmorphism {
+    background: rgb(39, 51, 89, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.white-glassmorphism {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+    background-image: linear-gradient(to right top, #993e20, #d66122, #e09a31, #fcaa07, #ebc012);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
